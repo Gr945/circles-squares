@@ -43,11 +43,12 @@
   flex-direction: column;
   justify-content: space-around;
   gap: 20px;
+  min-width: 300px;
 }
 
 .colomn-number-block {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   font-size: 24px;
   gap: 10px;
 }
@@ -61,4 +62,5 @@
   align-items: center;
   font-size: 28px;
   font-weight: 300;
+  position: absolute;
 }
